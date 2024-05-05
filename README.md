@@ -1,1 +1,1 @@
-Random Html stuff for widget integration or else
+Html stuff for widget integration or else
