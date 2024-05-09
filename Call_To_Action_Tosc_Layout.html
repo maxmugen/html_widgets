@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Custom Button</title>
+  <title>Transparent Button</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -20,7 +20,7 @@
       text-decoration: none;
       text-align: center;
       padding: 8px 16px;
-      background-color: #3264ff;
+      background-color: transparent; /* Transparent background */
       color: #ffffff;
       border: 3px solid #2d55d7;
       border-radius: 50px;
@@ -28,10 +28,11 @@
       font-weight: bold;
       cursor: pointer;
       box-shadow: 2px 1px 0 #000000;
-      transition: background-color 0.2s, box-shadow 0.2s;
+      transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
     }
     a.custom-button:hover {
-      background-color: #2d55d7;
+      background-color: #2d55d7; /* Background on hover */
+      color: #ffffff; /* Text color on hover */
       box-shadow: 4px 2px 0 #000000;
     }
   </style>
